@@ -1,5 +1,5 @@
 using System.Text;
-using UnityEditor.Experimental.GraphView;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class InputManager : MonoBehaviour
@@ -13,13 +13,13 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.T))
         {
-            Debug.Log("The A key is down!");
+            Debug.Log("The T key is down");
         }
         else
         {
-            Debug.Log("The A key is NOT down!");
+            Debug.Log("The T key is NOT down!");
         }       
     }
 }
